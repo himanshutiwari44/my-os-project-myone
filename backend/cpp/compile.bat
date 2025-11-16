@@ -3,10 +3,10 @@ REM Compilation script for CPU Scheduling Algorithms (Windows)
 
 echo Compiling CPU Scheduling Algorithms...
 
-REM Create bin directory if it doesn't exist
+
 if not exist "bin" mkdir bin
 
-REM Compile FCFS
+
 echo Compiling FCFS...
 g++ -o bin/fcfs.exe fcfs.cpp
 if %errorlevel% neq 0 (
@@ -15,7 +15,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM Compile SJF
+
 echo Compiling SJF...
 g++ -o bin/sjf.exe sjf.cpp
 if %errorlevel% neq 0 (

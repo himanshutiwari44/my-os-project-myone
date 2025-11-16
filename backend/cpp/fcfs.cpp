@@ -47,7 +47,6 @@ int main() {
     
     calculateFCFS(processes);
     
-    // Output as manual JSON
     cout << "{\n";
     cout << "  \"processes\": [\n";
     for (int i = 0; i < (int)processes.size(); i++) {
@@ -81,6 +80,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
