@@ -14,7 +14,7 @@ const PriorityVisualizer = () => {
     setError(null);
     
     try {
-      const response = await axios.post('http://localhost:5000/api/priority', {
+      const response = await axios.post('https://my-os-project-myone.onrender.com/api/priority', {
         processes: processes
       });
       

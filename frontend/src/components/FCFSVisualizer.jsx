@@ -14,7 +14,7 @@ const FCFSVisualizer = () => {
     setError(null);
     
     try {
-      const response = await axios.post('http://localhost:5000/api/fcfs', {
+      const response = await axios.post('https://my-os-project-myone.onrender.com/api/fcfs', {
         processes: processes
       });
       

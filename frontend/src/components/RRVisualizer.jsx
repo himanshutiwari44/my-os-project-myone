@@ -15,7 +15,7 @@ const RRVisualizer = () => {
     setError(null);
     
     try {
-      const response = await axios.post('http://localhost:5000/api/rr', {
+      const response = await axios.post('https://my-os-project-myone.onrender.com/api/rr', {
         processes: processes,
         quantum: quantum
       });
